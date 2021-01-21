@@ -98,7 +98,7 @@ function draw(){
 
 function keyPressed(){
      if(keyCode===RIGHT_ARROW){
-       Matter.Body.applyForce(boggie6.body,{x:boggie6.body.position.x , y:boggie6.body.position.y},{x:2 , y:0} );
+       Matter.Body.applyForce(boggie6.body,{x:boggie6.body.position.x , y:boggie6.body.position.y},{x:0.3 , y:0} );
 
        trainSound.play();
        
